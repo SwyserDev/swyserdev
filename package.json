@@ -1,0 +1,31 @@
+{
+  "name": "swyserdev",
+  "version": "1.0.0",
+  "description": "This is a site that runs hand in hand with my portfolio site, demonstrating some of the dev work that I have done.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwyserDev/swyserdev.git"
+  },
+  "author": "Francois van der Merwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwyserDev/swyserdev/issues"
+  },
+  "homepage": "https://github.com/SwyserDev/swyserdev#readme",
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webserver": "^0.9.1",
+    "gulp-zip": "^4.0.0",
+    "sw-precache": "^5.0.0",
+    "undertaker-forward-reference": "^1.0.1"
+  }
+}
